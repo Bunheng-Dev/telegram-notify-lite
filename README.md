@@ -10,7 +10,9 @@ Tiny Telegram notification helper for Node and backend use.
 
 ## Install
 
+```bash
 npm install telegram-notify-lite
+```
 
 ## Quick usage
 
@@ -55,6 +57,38 @@ await sendMessage({
 
 > TELEGRAM
 <img width="642" height="356" alt="IMG_9791 (2)" src="https://github.com/user-attachments/assets/4f0f2dd4-b1d8-4147-8404-0b93ab06b11c" />
+
+---
+
+## Compatibility & Framework Support
+
+> ⚠️ This package runs **server-side only**. Never use it in browser/client-side code — your bot token will be exposed.
+
+---
+
+### ✅ Supported Environments
+
+| Environment | Type | Supported | Notes |
+|---|---|---|---|
+| Node.js (Express, Fastify, Hono) | Server | ✅ Yes | Native support |
+| Next.js | Full-stack React | ✅ Yes | Use in API Routes or Server Actions |
+| Nuxt.js | Full-stack Vue | ✅ Yes | Use in `/server/api/` routes |
+| TanStack Start | Full-stack React | ✅ Yes | Use in Server Functions |
+| Remix | Full-stack React | ✅ Yes | Use in Loaders / Actions |
+| SvelteKit | Full-stack Svelte | ✅ Yes | Use in `+server.ts` routes |
+| AdonisJS | Node.js Framework | ✅ Yes | Use in Controllers |
+| Astro | Full-stack | ✅ Yes | Use in `.astro` server endpoints |
+
+---
+
+### ⚠️ Requires a Separate Node.js Server
+
+| Environment | Type | Supported | Notes |
+|---|---|---|---|
+| React (Vite) | Frontend only | ⚠️ Indirect | Needs separate Express / Fastify server |
+| Vue (Vite) | Frontend only | ⚠️ Indirect | Needs separate Express / Fastify server |
+| Svelte (Vite) | Frontend only | ⚠️ Indirect | Needs separate Express / Fastify server |
+
 
 ---
 
