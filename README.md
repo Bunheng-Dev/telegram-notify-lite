@@ -15,7 +15,7 @@ npm install telegram-notify-lite
 ```
 
 ## Quick usage
-
+> To get CHAD_ID 👉 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 ```ts
 import { initTelegram, sendMessage } from "telegram-notify-lite";
 
